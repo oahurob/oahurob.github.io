@@ -1,6 +1,6 @@
 var count = 0;
 
-function increaseCount(count){
+function increaseCount(){
     count++;
     document.getElementById("count").innerHTML = count;
 }
